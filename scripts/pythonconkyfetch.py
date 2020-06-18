@@ -1,4 +1,4 @@
-#Python METAR decoder, for use in a conky
+#Python METAR decoder, for standalone use
 #requires curl and the metar package - https://github.com/python-metar/python-metar
 
 from metar import Metar

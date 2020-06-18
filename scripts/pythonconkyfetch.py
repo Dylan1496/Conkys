@@ -40,7 +40,7 @@ for name in site:
                 break
         if not rawreport:
             print("No data for ", name, "\n\n")
-    except Metar.ParserErr as exc:
+    except Metar.ParserError as exc:
         print("METAR code: ", line)
         print(string.join(exc.args, ", "), "\n")
     except:
